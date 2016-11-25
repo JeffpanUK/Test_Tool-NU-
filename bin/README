@@ -1,0 +1,10 @@
+test-ss.sh
+
+function:
+testing latency, init time, real-time rate
+
+prepare work:
+1. build rls version exe
+2. use hdr to enable log, and set log level to 2
+3. disable general rule set in head file(language/XXX/speech/ve/*.hdr)
+
